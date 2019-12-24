@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+.container{
+    max-width: 1060px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+}
+body{
+    background-image: url('/src/img/header.png');
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}

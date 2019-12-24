@@ -1,0 +1,31 @@
+.main-section h1{
+    color: #D4C17F;
+    text-align: center;
+    padding-top: 296px;
+    font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+margin: 0;
+}
+.main-section p{
+    display: inline-block;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+margin-top: 200px;
+padding-right: 136px;   
+}
+.main-section{
+    text-align: center;
+}
+.fa-map-marker{
+    margin-right: 18px;
+}
+.fa-phone{
+    margin-right: 18px;
+}
+.main-section__mouse{
+    padding-top: 50px;
+}
