@@ -13,7 +13,9 @@ const cssFiles = [
    './src/css/fonts.css',
    './src/css/main.css',
    './src/css/header.css',
-   './src/css/main-section.css'
+   './src/css/main-section.css',
+   './src/css/advantages.css',
+   './src/css/our-apartment.css'
 
 ]
 //Порядок подключения js файлов

@@ -18,6 +18,8 @@ a{
 body{
     background-image: url('/src/img/header.png');
     background-repeat: no-repeat;
+    background-position: top;
+    background-color: #242B33;
     color: white;
     font-family: 'Exo 2', sans-serif;
 }

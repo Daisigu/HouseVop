@@ -1,0 +1,30 @@
+.advantages{
+    background-color: #242B33;
+    background-image: url('/src/img/2.png');
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.advantages__ul{
+    padding-top: 100px;
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+   margin: 0;
+  padding-left: 0;
+}
+.advantages__item{
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+
+}
+.advantages__item p{
+   vertical-align: text-bottom;
+   padding-top: 25px;
+}
+.advantages__item-wrapper{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}

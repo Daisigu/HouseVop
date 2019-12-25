@@ -4,6 +4,10 @@
     width: 134px;
     height: 37px;
 }
+.main-header{
+    background-image: url('/src/img/header.png');
+    background-repeat: no-repeat;
+}
 .main-header__logo p{
     text-transform: uppercase;
     font-weight: normal;
@@ -21,6 +25,14 @@ font-size: 14px;
 line-height: 16px;
 }
 .main-header__ul a{
-    margin-right: 40px;
  text-decoration: none;
+}
+.main-header__item{
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+    border: 1px solid #242B33;
+}
+.main-header__item:hover{
+    border: 1px solid white;
+    border-radius: 16px;
 }
