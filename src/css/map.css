@@ -14,7 +14,7 @@ display: block;
 margin: 0 auto;
 }
 .main-map{
-    background-image: url('/src/img/5.png');
+    background-image: url('./src/img/5.png');
     background-repeat: no-repeat;
     background-position: left center;
 }
