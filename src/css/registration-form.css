@@ -1,0 +1,67 @@
+.registration{
+    background-image: url('/src/img/registrationbgi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.registration__title{
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+
+}
+.registration__content{
+    font-style: normal;
+    max-width: 535px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.registration-form__item{
+width: 200px;
+height: 45px;
+font-style: normal;
+background-color: rgba(117, 123, 128, 0.438);
+border: none;
+font-weight: normal;
+font-size: 14px;
+line-height: 27px;
+text-align: center;
+margin: 15px;
+}
+.registration-form__item::placeholder{
+    color: #e7e7e7;
+}
+.registration-form__item-mod{
+    background: #D4C17F;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    border: none;
+}
+.registration-form__item-mod:hover{
+    background: rgb(163, 148, 93);
+}
+.registration-form p{
+    width: 255px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+}
+.registration-form{
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.flex-wrapper{
+    padding-top: 180px;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+}

@@ -1,0 +1,20 @@
+.map-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    padding-top: 180px;
+}
+.map{
+    padding-top: 100px;
+    width: 1110px;
+height: 450px;
+display: block;
+margin: 0 auto;
+}
+.main-map{
+    background-image: url('/src/img/5.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}

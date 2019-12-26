@@ -4,6 +4,8 @@
     padding-bottom: 100px;
     padding-top: 120px;
     background-position: 170px 240px;
+    background-image: url('/src/img/3.png');
+    background-repeat: no-repeat;
 }
 .our-apartment__item p{
     margin: 0;
