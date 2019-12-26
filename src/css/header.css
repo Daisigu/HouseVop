@@ -4,10 +4,6 @@
     width: 134px;
     height: 37px;
 }
-.main-header{
-    background-image: url('./src/img/header.png');
-    background-repeat: no-repeat;
-}
 .main-header__logo p{
     text-transform: uppercase;
     font-weight: normal;
