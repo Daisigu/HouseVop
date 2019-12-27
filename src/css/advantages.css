@@ -1,6 +1,6 @@
 .advantages{
     background-color: #242B33;
-    background-image: url('/src/img/2.png');
+   background: url('/src/img/2.png');
     background-repeat: no-repeat;
     background-position:right;
     color: #e7e7e7;
