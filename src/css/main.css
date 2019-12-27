@@ -16,7 +16,7 @@ a{
     color: white;
 }
 body{
-    background-image: url('./src/img/header.jpg');
+    background-image: url('../../src/img/headerbgi.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-color: #242B33;
