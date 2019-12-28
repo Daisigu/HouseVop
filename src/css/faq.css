@@ -41,6 +41,9 @@ margin: 15px;
     text-align: center;
     border: none;
 }
+.faq-form__item-mod:hover{
+    background: rgb(163, 148, 93);
+}
 .faq-form{
     margin-top: 60px;
     display: flex;
