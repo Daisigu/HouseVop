@@ -29,25 +29,6 @@ body{
         max-width: 377px;
     }
 }
-@media screen and (min-width: 377px) and (max-width: 576px){
-    .container{
-        max-width: 576px;
-    }
+@media (max-width: 767px){
+    
 }
-
-@media screen and (min-width: 577px) and (max-width: 768px){
-    .container{
-       max-width: 768px;
-    }
-}
-@media screen and (min-width: 769px) and (max-width: 992px){
-    .container{
-           max-width: 992px;
-        }
-}
-@media screen and (min-width: 993px) and (max-width: 1200px){
-    .container{
-    max-width: 1200px;
-}
-}
-  
