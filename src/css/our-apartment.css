@@ -49,3 +49,9 @@ color: #D4C17F;
     display: block;
     max-width: 500px;
 }
+@media screen and (max-width: 377px){
+.our-apartment__title{
+    font-size: 30px;
+    text-align: center;
+}
+}

@@ -1,4 +1,7 @@
-.main-section h1{
+.main-section__h1{
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
     color: #D4C17F;
     text-align: center;
     padding-top: 296px;
@@ -6,7 +9,6 @@
 font-weight: bold;
 font-size: 48px;
 line-height: 64px;
-margin: 0;
 }
 
 .main-section p{
@@ -29,4 +31,25 @@ padding-right: 136px;
 }
 .main-section__mouse{
     padding-top: 50px;
+}
+@media screen and (max-width: 377px){
+    .main-section__h1{
+font-size: 30px;
+    }
+    .main-section p{
+margin: 0;
+padding: 0;
+padding-top: 20px;
+    }
+}
+@media (max-width: 767px){
+    .main-section__h1{
+        font-size: 30px;
+            }
+            .main-section p{
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        padding-right: 30px;
+            }
 }

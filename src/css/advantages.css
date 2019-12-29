@@ -29,3 +29,36 @@ line-height: 27px;
     width: 80px;
     height: 80px;
 }
+.advantages__item-wrapper img{
+    width: 100%;
+}
+@media screen and (max-width: 377px){
+.advantages__ul{
+    flex-wrap: wrap;
+}
+.advantages__item-wrapper{
+    width: 50px;
+    height: 50px;
+}
+.advantages__item p{
+    font-size: 15px;    
+    padding-top: 0;
+}
+}
+@media screen and (min-width: 378px) and (max-width: 767px){
+    .advantages__ul{
+        flex-wrap: wrap;
+    }
+    .advantages__item-wrapper{
+        width: 60px;
+        height: 60px;
+    }
+    .advantages__item p{
+        font-size: 15px;
+        padding-top: 0;
+    }  
+    .advantages__item{
+        display: block;
+        width: 170px;
+    } 
+}

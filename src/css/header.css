@@ -1,4 +1,6 @@
-
+.main-header__logo img{
+    width: 100%;
+}
 .main-header__logo{
     padding-top: 30px;
     width: 134px;
@@ -39,9 +41,6 @@ line-height: 16px;
     margin-right: 20px;
 }
 @media screen and (max-width: 377px){
-    .main-header__logo{
-        margin: 0 auto;
-    }
     .main-header__ul{
         padding-top: 50px;
     }
@@ -49,22 +48,27 @@ line-height: 16px;
 @media (max-width: 767px){
  .header__burger{
      display: block;
+     float: left;
      position: relative;
      width: 30px;
      height: 20px;
-margin-bottom: 20px;
-margin-top: 50px;
+     margin: 20px 0;
 cursor: pointer;
  }
  .main-header__item{
      margin: 0;
  }
  .main-header__logo{
-     margin: 0 auto;
-     padding-top: 0;
-     margin-top: 30px;
-     margin-bottom: 20px;
+     display: block;
+     width: 90px;
+     float: right;
+     height: 20px;
+     padding: 0;
+     margin: 20px 0;
  } 
+ .main-header__logo p{
+     display: none;
+ }
  .main-header__list{
      display: block;
      position: fixed;
@@ -75,7 +79,7 @@ cursor: pointer;
      margin: 0;
  }
  .main-header__list.active{
-     top:155px;
+     top:60px;
  }
  .header__burger.active::before{
 transform: rotate(45deg);
