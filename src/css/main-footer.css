@@ -10,15 +10,15 @@
 font-weight: normal;
 font-size: 14px;
 line-height: 16px;
-padding-top: 72px;
+padding-top: 30px;
+margin-top: 0;
 color: #e7e7e7;
 }
 .main-footer__item{
     padding-top: 15px;
 }
 .main-footer__logo{
-    padding-top: 60px;
-    padding-bottom: 146px;
+    padding-top: 30px;
 }
 .social a {
     text-align: center;
@@ -57,5 +57,24 @@ color: #e7e7e7;
 @media screen and (max-width: 377px){
     .main-footer__flex-wrapper{
        flex-wrap: wrap;
+    }
+    .main-footer__logo{
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .main-footer__logo img{
+        display: block;
+        margin: 0 auto;
+    }
+    .main-footer__logo p{
+        text-align: center;
+    }
+    .main-footer__ul{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 0;
     }
 }
