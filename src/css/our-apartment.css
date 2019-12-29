@@ -55,6 +55,8 @@ color: #D4C17F;
 }
 .our-apartment__item-wrapper p{
     font-size: 15px;
+    display: block;
+    width: 150px;
 }
 .our-apartment{
     padding-top: 20px;
