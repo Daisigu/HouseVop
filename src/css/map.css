@@ -23,3 +23,14 @@ margin: 0 auto;
     margin: 0 auto;
     max-width: 1000px;
 }
+@media screen and (max-width: 377px)
+{
+    .map-title{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .map{
+        padding-top: 30px;
+    }
+}

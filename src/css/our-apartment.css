@@ -53,5 +53,13 @@ color: #D4C17F;
 .our-apartment__title{
     font-size: 30px;
     text-align: center;
+    padding-bottom: 20px;
+}
+.our-apartment__item-wrapper p{
+    font-size: 15px;
+}
+.our-apartment{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 }

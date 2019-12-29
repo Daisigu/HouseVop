@@ -54,3 +54,8 @@ color: #e7e7e7;
 .main-footer span{
     color: #D4C17F;
 }
+@media screen and (max-width: 377px){
+    .main-footer__flex-wrapper{
+       flex-wrap: wrap;
+    }
+}

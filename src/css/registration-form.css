@@ -65,3 +65,23 @@ margin: 15px;
    flex-wrap: nowrap;
    align-items: center;
 }
+@media screen and (max-width: 377px){
+    .registration__title{
+        font-size: 25px;
+    }
+    .registration__content{
+        font-size: 13px;
+    }
+    .flex-wrapper{
+        text-align: center;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    .registration-form__item{
+        margin: 10px auto;
+    }
+    .registration-form p{
+        display: block;
+        margin: 10px auto;
+    }
+}
