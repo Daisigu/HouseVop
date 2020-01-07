@@ -63,3 +63,19 @@ color: #D4C17F;
     padding-bottom: 20px;
 }
 }
+@media screen and (min-width: 377px) and (max-width: 576px){
+    .our-apartment__title{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .our-apartment__item-wrapper p{
+        font-size: 20px;
+        display: block;
+        width: 150px;
+    }
+    .our-apartment{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

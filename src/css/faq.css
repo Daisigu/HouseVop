@@ -64,3 +64,21 @@ margin: 15px;
         padding-bottom: 50px;
     }
 }
+@media screen and (min-width: 377px) and (max-width: 576px){
+    .faq-form{
+        flex-wrap: wrap;
+        margin-top:10px;
+    }
+    .faq-title{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .faq{
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .faq-form__item{
+        width: 300px;
+    }
+}

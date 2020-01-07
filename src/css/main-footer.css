@@ -78,3 +78,31 @@ color: #e7e7e7;
         padding-left: 0;
     }
 }
+@media screen and (min-width: 377px) and (max-width: 576px){
+    .main-footer__flex-wrapper{
+        flex-wrap: wrap;
+     }
+     .main-footer__logo{
+         display: block;
+         width: 100%;
+         margin: 0 auto;
+     }
+     .main-footer__logo img{
+         display: block;
+         margin: 0 auto;
+     }
+     .main-footer__logo p{
+         text-align: center;
+     }
+     .main-footer__ul{
+         display: block;
+         width: 100%;
+         margin: 0 auto;
+         text-align: center;
+         padding-top: 10px;
+         padding-left: 0;
+     }
+     .d-flex{
+    justify-content: center;
+     }
+}

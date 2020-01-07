@@ -85,3 +85,24 @@ margin: 15px;
         margin: 10px auto;
     }
 }
+@media screen and (min-width: 377px) and (max-width: 576px){
+    .registration__title{
+        font-size: 25px;
+    }
+    .registration__content{
+        font-size: 13px;
+    }
+    .flex-wrapper{
+        text-align: center;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    .registration-form__item{
+        margin: 10px auto;
+        width: 300px;
+    }
+    .registration-form p{
+        display: block;
+        margin: 10px auto;
+    }
+}
