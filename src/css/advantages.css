@@ -96,6 +96,23 @@ line-height: 27px;
        max-width: 200px;
     } 
 }
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .advantages__ul{
+        flex-wrap: nowrap;
+    }
+    .advantages__item-wrapper{
+        width: 60px;
+        height: 60px;
+    }
+    .advantages__item p{
+        font-size: 15px;
+        padding-top: 0;
+    }  
+    .advantages__item{
+        display: block;
+       max-width: 300px;
+    } 
+}
 /*
 @media screen and (min-width: 377px) and (max-width: 576px){
 @media screen and (min-width: 577px) and (max-width: 768px){

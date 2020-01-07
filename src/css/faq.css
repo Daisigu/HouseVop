@@ -30,6 +30,7 @@ font-size: 14px;
 line-height: 27px;
 text-align: center;
 margin: 15px;
+color: #E7E7E7;
 }
 .faq-form__item::placeholder{
     color: #e7e7e7;
@@ -80,5 +81,23 @@ margin: 15px;
     }
     .faq-form__item{
         width: 300px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px){
+    .faq-form{
+        flex-wrap: wrap;
+        margin-top:10px;
+    }
+    .faq-title{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .faq{
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .faq-form__item{
+        width: 500px;
     }
 }
