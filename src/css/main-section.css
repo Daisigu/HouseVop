@@ -10,7 +10,26 @@ font-weight: bold;
 font-size: 48px;
 line-height: 64px;
 }
-
+.slick-arrow{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 70%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;     
+}
+.fa-angle-right{
+    right: -15px;
+}
+.slider .fa{
+font-size: 50px;
+opacity: 0.8;
+}
+.fa-angle-left{
+    left: -15px;
+}
 .main-section p{
     display: inline-block;
 font-style: normal;
@@ -31,10 +50,11 @@ padding-right: 136px;
 }
 .main-section__mouse{
     padding-top: 50px;
+    margin: 0 auto;
 }
 @media screen and (max-width: 377px){
     .main-section__h1{
-font-size: 30px;
+font-size: 25px;
     }
     .main-section p{
 margin: 0;
@@ -53,6 +73,11 @@ font-size: 15px;
         padding-top: 20px;
         padding-right: 30px;
             }
+            .slider .fa{
+                font-size: 25px;
+                }
+            
+         
 }
 @media screen and (min-width: 767px) and (max-width: 992px){
 .main-section p{

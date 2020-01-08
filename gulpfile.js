@@ -38,7 +38,9 @@ const styleFiles = [
    './src/css/video.css',
    './src/css/map.css',
    './src/css/faq.css',
-   './src/css/main-footer.css'
+   './src/css/main-footer.css',
+   './src/lib/slick-1.8.1/slick/slick.css',
+   './src/lib/slick-1.8.1/slick/slick-theme.css'
 ]
 //Порядок подключения js файлов
 const scriptFiles = [
