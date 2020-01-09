@@ -10,4 +10,8 @@ $(document).ready(function(){
       nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
       prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>'
     });   
+    
+    $('.main-footer__ul__title').click(function(event){
+       $(this).toggleClass('active').nextAll('.main-footer__item').slideToggle(300);
+    });  
 });

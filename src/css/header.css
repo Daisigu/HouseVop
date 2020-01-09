@@ -57,8 +57,8 @@ line-height: 16px;
      height: 20px;
      margin: 20px 0;
 cursor: pointer;
- }
 
+}
  .main-header__item{
      margin: 0;
  }
@@ -85,6 +85,7 @@ cursor: pointer;
  .main-header__list.active{
      top:60px;
      transition: all 0.5s ease 0s;
+     padding-left: 0;
  }
  .header__burger.active::before{
 transform: rotate(45deg);
